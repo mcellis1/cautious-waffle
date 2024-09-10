@@ -2,7 +2,7 @@
 import inquirer from 'inquirer'
 import { generateMarkdown } from './utils/generateMarkdown.js'
 import fs from 'fs'
- 
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -36,7 +36,7 @@ const questions = [
         message: 'select the license you would like to use',
         choices: ['ISC', 'MIT', 'Unlicense']
     },
-];
+]
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
@@ -44,7 +44,7 @@ function writeToFile(answers) {
     const license = `${answers.license}`
     fs.writeFile(fileName, generateMarkdown(answers, license), (err) =>
         err ? console.logg(err) : console.log('successfully created README file')
-    );
+    )
 }
 
 // TODO: Create a function to initialize app
@@ -56,4 +56,4 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+init()
