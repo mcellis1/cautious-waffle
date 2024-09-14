@@ -8,27 +8,27 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'what is the title of your project?',
+        message: 'what is the title of your project?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'write the description for your README',
+        message: 'write the description for your project'
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'whatt are the steps required to install your project?',
+        message: 'what are the steps required to install your project?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'provide instructions and examples for use',
+        message: 'provide instructions and examples for use'
     },
     {
         type: 'input',
         name: 'credits',
-        message: 'list your collaborators if any',
+        message: 'list your collaborators if any'
     },
     {
         type: 'list',
@@ -36,6 +36,16 @@ const questions = [
         message: 'select the license you would like to use',
         choices: ['ISC', 'MIT', 'Unlicense']
     },
+    {
+        type: 'input',
+        name: 'user',
+        message: 'enter your github username'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'enter your email address'
+    }
 ]
 
 // TODO: Create a function to write README file

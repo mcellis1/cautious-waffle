@@ -4,7 +4,7 @@ import { getLicense } from 'license';
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license) {
-    return `[![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)]`
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]`
   } else {
     return ``
   }
@@ -39,6 +39,13 @@ ${renderLicenseBadge(license)}${renderLicenseLink(license)}
 
 ${data.description}
 
+## Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#contributing)
+- [License](#license)
+
 ## Installation
 
 ${data.installation}
@@ -47,12 +54,18 @@ ${data.installation}
 
 ${data.usage}
 
-## Credits
+## Contributing
 
 ${data.credits}
 
 ## License
 
 ${renderLicenseSection(license)}
+
+## Questions
+
+Questions about the prooject should be directed through the following contacts below.
+Link to github profile: [${data.user}](https://github.com/${data.user})
+Email: [${data.email}](mailto:${data.email})
 `
 }
