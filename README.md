@@ -14,7 +14,7 @@ This application takes input from the user and inputs it into a professional REA
 
 ## Installation
 
-First, you need to clone the github repository. Second install the the inquirer package by using the command "npm i" in the integrated terminal. Third, you need to run the command "node index.js" within the "main/" directory to initiate the application. The application will then prompt you wil a series of questions to input into the README file.
+First, you need to clone the github repository. Second install the the inquirer package by using the command "npm i" in the integrated terminal. Third, you need to run the command "node index.js" within the "main/" directory to initiate the application. The application will then prompt you with a series of questions to input into the README file.
 
 ![a screenshot of the commands necessary to run the application](./main/utils/commands.png)
 
