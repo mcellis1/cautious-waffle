@@ -64,7 +64,7 @@ ${renderLicenseSection(license)}
 
 ## Questions
 
-Questions about the prooject should be directed through the following contacts below.
+Questions about the project should be directed through the following contacts below.
 Link to github profile: [${data.user}](https://github.com/${data.user})
 Email: [${data.email}](mailto:${data.email})
 `
